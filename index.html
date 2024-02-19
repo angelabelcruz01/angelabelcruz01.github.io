@@ -12,20 +12,33 @@
             margin: 50px;
         }
 
-        h1 {
-            color: #333;
+        #profile-pic {
+            width: 90%;
+            height: auto;
+            border-radius: 10px;
+            border-style: solid;
+            border-width: 20px;
+            border-color: rgb(5, 25, 54);
+            margin: 2px;
         }
 
-        img {
-            width: 499.5px; /* Adjust the width as needed */
-            height: 624.3px; /* Adjust the height as needed */
-            border-radius: 10px; /* Adds a slight border-radius for a softer look */
-            margin-top: 20px; /* Adjust the margin as needed */
-            float: left; /* Float the image to the left */
-            margin-right: 20px; /* Add some margin to separate the image from other content */
+        .personal-info-box {
+            width: 40%;
+            background-color: whitesmoke;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 10px;
+            float: left;
         }
 
-        a {
+        .p-personal-info-box {
+            color: black;
+            width: 90%;
+            margin: 10px;
+            text-align: left;
+        }
+
+        #linkedin {
             display: inline-block;
             margin: 10px;
             padding: 10px;
@@ -35,19 +48,59 @@
             border-radius: 5px;
         }
 
-        a.github {
+        #github {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
             background-color: #333; /* GitHub black */
+            border-radius: 5px;
         }
     </style>
 </head>
 
 <body>
-    <h1>Angel Abel Cruz</h1>
-    <img src="angel_shot5.jpg" alt="Profile Picture Placeholder">
-    <div>
-        <a href="https://www.linkedin.com/in/angel-abel-cruz-088a027b/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/angelabelcruz01" target="_blank" class="github">GitHub</a>
+    <div class="personal-info-box">
+
+        <img src="angel_shot5.jpg" alt="profile picture of Angel" id="profile-pic">
+
+        <p class="p-personal-info-box">
+            Hello! I'm Angel, a finance professional with a passion for technology, currently advancing my skills through a 
+            non-degree Computer Science program at the <a href="https://github.com/ossu/computer-science" target="_blank">Open Source Society 
+            University (OSSU).</a> I bring a unique blend of financial acumen and a growing expertise in computer 
+            science, excited to contribute effectively at the <em>intersection of finance and technology.</em>
+        </p>
+       
+        <h3>Skills</h3>
+        <p class="p-personal-info-box">
+            Experienced business analyst with 6 years in optimizing sales strategy and operations, known for 
+            implementing effective controls and uncovering growth opportunities. A strong advocate of proactive 
+            problem-solving and the "do it yourself if no one else does" approach, I've led by example and inspired 
+            teams toward "work smart". My expertise lies in data analysis (MS Excel, Python), process optimization 
+            (MS Power Platform suite), and project management (Agile Methodologies) with a user-centric mindset.
+        </p>
+
+        <h3>Education</h3>
+        <p class="p-personal-info-box">
+            I hold a Bachelor of Science in Physics from the <em>Universidad de Panamá</em> and a MBA in Industrial 
+            Management from the <em>National Taiwan University of Science and Technology.</em>
+        </p>
+
+        <h3>Professional Experience</h3>
+        <p class="p-personal-info-box">
+            I'm currently a sales planning senior advisor 
+        </p>
+
+        <h3>Contact details</h3>
+        <p>
+            <a href="https://www.linkedin.com/in/angel-abel-cruz-088a027b/" target="_blank" id="linkedin">LinkedIn</a>
+            <a href="https://github.com/angelabelcruz01" target="_blank" id="github">GitHub</a>
+        </p>
     </div>
+
+    <h1>Pursuing My Computer Science Career</h1>
+
 </body>
 
 </html>
